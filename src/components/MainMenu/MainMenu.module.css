@@ -1,0 +1,37 @@
+.wrapper {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    background: #DCDCDC;
+    width: 800px;
+    height: 80vh;
+    margin: 0 auto;
+    min-width: 350px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0px 25px;
+    background: #C0C0C0;
+}
+
+.login {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 120px;
+}
+
+.storageMenu {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}

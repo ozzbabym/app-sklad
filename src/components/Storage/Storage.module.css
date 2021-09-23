@@ -1,0 +1,57 @@
+.wrapperMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    margin: 0 25px
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 25px
+}
+
+.listItems {
+    margin: 10px 25px
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+}
+
+.countButton {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 150px
+}
+
+.addGoods{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.searchInput {
+    margin: 0px 25px;
+}
+
+.inputAddGoods {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.modal {
+    position: fixed;
+    top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
